@@ -2,7 +2,7 @@ import folium
 import requests as r
 import json
 import os
-# import api_key
+import api_key
 
 
 def geocoder_conn_str(input_addr, asset_pos, asset_name, facility_name, facility_addr):

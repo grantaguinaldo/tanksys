@@ -23,7 +23,7 @@ select {
 }
 
 option {
-  color: lightgray;
+  color: black;
 }
 
 .bg-img {
@@ -86,7 +86,7 @@ option {
 .form {
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
-	  margin-left: auto;
+	margin-left: auto;
     margin-right: auto;
     width: 55vw;
     color: white;

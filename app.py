@@ -76,26 +76,10 @@ def vfrtk():
 def is_alive():
     return 'This is Tanks 4.09_d on the Web'
 
-'''
-@app.route('/emissiondetail')
-def emissiondetail():
-    return render_template('vert_fixed_roof_tk.html')
-
-
-@app.route('/summary')
-def summary():
-    return render_template('loss_summary.html')
-
-
 @app.route('/map')
 def map():
     return render_template('map.html')
 
-
-@app.route('/results')
-def results():
-    return render_template('index.html')
-'''
 @app.route('/')
 def index():
     return render_template('main.html')
